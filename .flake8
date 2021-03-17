@@ -1,0 +1,8 @@
+# .flake8
+[flake8]
+# for more informations : https://flake8.pycqa.org/en/latest/user/configuration.html
+# ignore = E402
+ignore = E203, E266, E501, W503
+exclude = .git,__pycache__,docs,node_modules,build,dist,*.egg-info,old,.tox,.pytest_cache
+max-line-length = 79
+max-complexity = 18
