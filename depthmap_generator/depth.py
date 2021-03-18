@@ -10,8 +10,13 @@ import cv2
 import numpy as np
 import torch
 
-from .monodepth_net import MonoDepthNet as Net
-from .utils import read_image, resize_depth, resize_image, write_depth
+from depthmap_generator.monodepth_net import MonoDepthNet as Net
+from depthmap_generator.utils import (
+    read_image,
+    resize_depth,
+    resize_image,
+    write_depth,
+)
 
 
 class Depthmap:

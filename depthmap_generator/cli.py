@@ -7,16 +7,8 @@ import argparse
 import logging
 import os
 
-from . import utils
-from .depth import Depthmap
-
-DEFAULT_MODEL_PATH = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "model",
-    "model.pt",
-)
-
-DEFAULT_FILE_ID = "1Jj0BiRElC--8Q0wekzGhop6Mxh-z0mYi"
+from depthmap_generator import DEFAULT_FILE_ID, DEFAULT_MODEL_PATH, utils
+from depthmap_generator.depth import Depthmap
 
 
 def cli_args():
