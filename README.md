@@ -14,8 +14,8 @@ We propose a method for converting a single RGB-D input image into a depth map b
 
 ## Features
 
-- Command line for more information run `depthmap-generator -h`.
 - Compatible Windows 10 and GNU/Linux.
+- Command line for more informations run `depthmap-generator -h`.
 - Graphical interface *(coming soon)*.
 - Handle lot of images.
 - Mutli-Thread with CPU support.
@@ -78,4 +78,4 @@ This work is licensed under MIT License. See [LICENSE](LICENSE) for details.
 
 ## Credits
 
-You can found this in [Authors](AUTHORS.md) for details.
+You can found authors and original project informations in [Authors](AUTHORS.md) for details.
